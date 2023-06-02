@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --fonte-padrao: 'Sarala', sans-serif;
+    --fonte-destaque: 'Righteous', cursive;
+
+    --cor1: #D98F95;
+    --cor2: #F95A67;
+    --cor3: #F7A3AA;
+    --cor4: #782B32;
+    --cor5: #C48287;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(68.15deg, #782B32 16%, #D98F95 85.61%);
+    font-size: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo-header{
+    height: 90px;
+    border-radius: 50%;
+}
+
+.conteudo-principal{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto-home{
+    height: 300px;
+}
+
