@@ -83,7 +83,8 @@ nav a:hover{
 
 .section-home{
     background-image: url(../imagens/fundo-home.jpg);
-    background-position: left top;
+    background-position: top right;
+    background-attachment: fixed;
     height: 300px;
     display: flex;
     gap: 15px;
@@ -151,6 +152,7 @@ nav a:hover{
 .section-produtos{
     border-top: 0.4px solid #fff2e7;
     background-image: url(../imagens/fundo-4.jpg);
+    background-attachment: fixed;
     background-size: cover;
     height: 300px;
     display: flex;
@@ -171,9 +173,16 @@ nav a:hover{
     font-size: 20px;
 }
 
-#foto-produtos{
-    height: 200px;
+.container-fotos-prod{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+.foto-produtos{
+    height: 150px;
     border-radius: 20px;
+
 }
 
 .section-dicas{
