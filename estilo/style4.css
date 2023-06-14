@@ -41,11 +41,12 @@ body{
 /*<<<<<<< CABEÇALHO >>>>>>>*/
 .header{
     display: flex;
-    height: 180px;
     justify-content: space-around;
     align-items: center;
+    flex-flow: row wrap;
     padding: 30px;
     background-color: #782b31c4;
+    flex-shrink: 2;
 }
 
 .logo-header{
@@ -248,13 +249,13 @@ nav a:hover{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     background-image: url(../imagens/fundo-contato2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
-    gap: 30px;
+    gap: 20px;
     border-radius: 15px 15px 0px 0px;
     box-shadow: 3px -5px 7px #00000054;
     border-bottom: 0.4px solid #fff2e7;
