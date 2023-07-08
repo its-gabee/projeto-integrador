@@ -1,5 +1,6 @@
 /*CONFIGURAÇÕES GLOBAIS*/
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
@@ -249,7 +250,7 @@ nav a:hover{
     flex-flow: column wrap;
     align-items: center;
     padding: 25px;
-    background-image: url(../imagens/fundo-contato2.jpg);
+    background-image: url(../imagens/fundo-5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -263,7 +264,7 @@ nav a:hover{
 
 #titulo-contato{
     font-family: var(--fonte-destaque);
-    color: var(--cor7);
+    color: var(--cor4);
     font-weight: 250;
     font-size: 34px;
     padding-top: 20px;
